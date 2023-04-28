@@ -1,6 +1,6 @@
 package com.software.sparkstreaming
 
-object LearnScala_3_Functions extends App {
+object LearningScala3_Functions extends App {
 
   // Functions
   // Format is def <function name> (parameter name: type...) : return type = { expression }
@@ -31,6 +31,12 @@ object LearnScala_3_Functions extends App {
   println(res1)
   println(res3)
 
-  // TODO
-  // write the function which converts string to UPPERCASE
+  val stringToConvert = "anystring"
+
+  private def toUpper(str: String): String = {
+    str.toUpperCase()
+  }
+
+  println(toUpper(stringToConvert))
+
 }
