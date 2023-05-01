@@ -8,5 +8,11 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="scala-sdk-2.12.15" level="application" />
+    <orderEntry type="library" name="twitter4j.core" level="project" />
+    <orderEntry type="library" name="twitter4j.stream" level="project" />
+    <orderEntry type="library" name="io.snappydata.snappy.spark.streaming.twitter_2.10" level="project" />
+    <orderEntry type="library" name="io.snappydata.snappy.spark.streaming_2.10" level="project" />
+    <orderEntry type="library" name="apache.spark.streaming_2.12" level="project" />
+    <orderEntry type="library" name="apache.spark.core_2.12" level="project" />
   </component>
 </module>
