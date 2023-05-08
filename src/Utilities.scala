@@ -6,14 +6,14 @@ import java.util.regex.Matcher
 
 object Utilities {
   /** Makes sure only ERROR messages get logged to avoid log spam. */
-  def setupLogging(): Unit = {
+  def setupLogging() = {
     import org.apache.log4j.{Level, Logger}
-    val rootLogger = Logger.getRootLogger
+    val rootLogger = Logger.getRootLogger()
     rootLogger.setLevel(Level.ERROR)
   }
 
   /** Configures Twitter service credentials using twiter.txt in the main workspace directory */
-  def setupTwitter(): Unit = {
+  def setupTwitter() = {
     import scala.io.Source
 
     for (line <- Source.fromFile("twitter.txt").getLines) {
