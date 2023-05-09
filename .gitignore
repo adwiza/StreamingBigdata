@@ -94,3 +94,4 @@ twitter.txt
 *.conf
 /application.json
 /cpt/
+/logs/
