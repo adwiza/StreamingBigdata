@@ -823,5 +823,8 @@
     <orderEntry type="library" name="apache.spark.sql_2.12" level="project" />
     <orderEntry type="library" name="apache.spark.streaming_2.12" level="project" />
     <orderEntry type="library" name="apache.spark.core_2.12" level="project" />
+    <orderEntry type="library" name="io.sentry.log4j2" level="project" />
+    <orderEntry type="library" name="apache.kafka.clients" level="project" />
+    <orderEntry type="library" name="apache.spark.streaming.kafka.0.10_2.12" level="project" />
   </component>
 </module>
