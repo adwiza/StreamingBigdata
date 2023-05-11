@@ -4,13 +4,14 @@ package com.software.sparkstreaming
 import org.apache.spark.SparkConf
 import org.apache.spark.streaming.{Seconds, StreamingContext, Time}
 import org.apache.spark.storage.StorageLevel
-import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql
 import org.apache.spark.rdd.RDD
 
 import java.util.regex.Pattern
 import java.util.regex.Matcher
-
 import Utilities._
+
+import org.apache.spark.sql.SparkSession
 
 /** Illustrates using SparkSQL with Spark Streaming, to issue queries on
  *  Apache log data extracted from a stream on port 9999.
